@@ -1,5 +1,6 @@
 import { Footer } from "./common/Footer";
-import { Header } from "./common/Header";
+import Header from "./common/Header";
+import Main from "./common/Main";
 
 export const TheLayout = () => {
   return (
@@ -8,7 +9,7 @@ export const TheLayout = () => {
         <Header />
       </div>
       <main>
-        <div>body</div>
+        <Main />
       </main>
       <div>
         <Footer />
