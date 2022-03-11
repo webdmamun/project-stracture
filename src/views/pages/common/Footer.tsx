@@ -1,7 +1,7 @@
-export const Footer = () => {
-  return (
-    <div>
-      <h2>this is footer</h2>
-    </div>
-  );
+import React from "react";
+
+const Footer = () => {
+  return <div className="container mx-auto">Footer</div>;
 };
+
+export default Footer;
